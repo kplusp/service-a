@@ -1,0 +1,12 @@
+{
+  "name": "service-a",
+  "version": "1.0.0",
+  "description": "Service A - main microservice POC for Jenkins -> Docker Hub -> Helm -> Argo CD -> Kubernetes pipeline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
